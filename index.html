@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Meta tags -->
+    <title>PORT-3000</title>
+    <meta name="title" content="PORT-3000 (A software developer portfolio)" />
+    <meta
+      name="description"
+      content="This is a personal portfolio made by Hari Krishnan"
+    />
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- material icon link -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Top Bar -->
+    <header class="topbar">
+      <a href="#" class="logo">
+        <img
+          src="./assets/images/pedro.gif"
+          alt="PORT-3000"
+          class="dark"
+          width="50"
+          height="32"
+          style="border-radius: 50%"
+        />
+        <img
+          src="./assets/images/pedro.gif"
+          alt="PORT-3000"
+          class="light"
+          width="50"
+          height="32"
+          style="border-radius: 50%"
+        />
+      </a>
+
+      <button class="icon-btn theme-btn" data-theme-btn>
+        <span class="material-symbols-outlined dark" aria-hidden="true">
+          dark_mode
+        </span>
+        <span class="material-symbols-outlined light" aria-hidden="true">
+          light_mode
+        </span>
+
+        <div class="state-layer"></div>
+      </button>
+    </header>
+
+    <main>
+      <article>
+        <!-- Hero -->
+        <section class="section hero">
+          <div class="container">
+            <figure
+              class="hero-banner img-holder"
+              style="--width: 240; --height: 240"
+            >
+              <img
+                src="./assets/images/9778 - HARI.jpg"
+                width="240"
+                height="240"
+                alt="Hari Krishnan"
+                class="img-cover"
+              />
+            </figure>
+            <div class="hero-content">
+              <span class="label-large section-subtitle">
+                Software Developer
+              </span>
+
+              <h1 class="display-small">Hari Krishnan</h1>
+
+              <p class="body-large section-text">
+                CS Student aspring to become a software developer working in a
+                well known IT company.
+              </p>
+
+              <div class="btn-wrapper">
+                <a href="mailto:harik106.krishnan@gmail.com" class="chip">
+                  <span class="material-symbols-outlined" aria-hidden="true">
+                    mail
+                  </span>
+
+                  <span class="label-large">harik106.krishnan@gmail.com</span>
+
+                  <div class="state-layer"></div>
+                </a>
+
+                <a href="tel:+91 9447846770" class="chip">
+                  <span class="material-symbols-outlined" aria-hidden="true">
+                    call
+                  </span>
+
+                  <span class="label-large">+91 9447846770</span>
+
+                  <div class="state-layer"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Main Content -->
+         <div class="article">
+          <div class="about-card">
+            <h2 class="card-title title-medium">About</h2>
+
+            <p class="body-medium card-text">
+              A passionate software developer with a strong background in
+              Computer Science.
+            </p>
+
+            <ul class="about-list">
+              <li class="list-item">
+                <span class="material-symbols-outlined" aria-hidden="true">
+                  location_on
+                </span>
+                <span class="label-medium"> Kerala, India</span>
+              </li>
+              <li class="list-item">
+                <span class="material-symbols-outlined" aria-hidden="true">
+                  work
+                </span>
+
+                <a href="https://github.com/hariK106" target="_blank" class="label-medium">Github</a>
+
+              </li>
+            </ul>
+          </div>
+         </div>
+
+
+        <!-- Primary tabs -->
+         <div class="primary-tabs">
+          <button class="tab-btn active" data-tab-btn="project">
+            <span class="tab-text title-small">Projects</span>
+
+            <div class="state-layer"></div>
+          </button>
+          <button class="tab-btn " data-tab-btn="resume">
+            <span class="tab-text title-small">Resume</span>
+
+            <div class="state-layer"></div>
+          </button>
+          <button class="tab-btn " data-tab-btn="contact">
+            <span class="tab-text title-small">Contact</span>
+
+            <div class="state-layer"></div>
+          </button>
+         </div>
+
+
+         <!-- Projects -->
+          <section class="section tab-content active" data-tab-content="project">
+            <div class="container">
+              <div class="project-list">
+                <div class="card">
+                  <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                    <img src="./assets/images/project-1.png" alt="FEXV2 - A python based Advanced File Explorer" class="img-cover" width="334" height="180">
+                  </figure>
+
+                  <div class="card-content">
+                    <span class="label-large card-subtitle">
+                      Desktop App
+                    </span>
+
+                    <h3 class="title-large card-title">
+                      FEXV2 - A python based Advanced File Explorer
+                    </h3>
+                  </div>
+                  <a href="#" class="state-layer"></a>
+                </div>
+                <div class="card">
+                  <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                    <img src="./assets/images/project-2.png" alt="CSP - Collaborative Service Providing Platform" class="img-cover" width="334" height="180">
+                  </figure>
+
+                  <div class="card-content">
+                    <span class="label-large card-subtitle">
+                      Web App
+                    </span>
+
+                    <h3 class="title-large card-title">
+                      Collaborative Service Providing Platform
+                    </h3>
+                  </div>
+                  <a href="#" class="state-layer"></a>
+                </div>
+                <div class="card">
+                  <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                    <img src="./assets/images/project-3.png" alt="RollCall - A QR Code attendance management system" class="img-cover" width="334" height="180">
+                  </figure>
+
+                  <div class="card-content">
+                    <span class="label-large card-subtitle">
+                      Web App
+                    </span>
+
+                    <h3 class="title-large card-title">
+                      RollCall - A QR Code Attendance management system
+                    </h3>
+                  </div>
+                  <a href="#" class="state-layer"></a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Resume -->
+           <section class="section tab-content resume-tab" data-tab-content="resume">
+            <div class="container">
+              <h2 class="section-title title-small">Education</h2>
+
+              <ul class="list">
+                <li class="resume-item">
+                  <div class="resume card">
+                    <p class="body-large">
+                      Integrated MCA (5 year program)
+                    </p>
+                    <span class="label-medium card-subtitle">2021 - present</span>
+                    <span class="body-medium card-text">Amrita Vishwa Vidyapeetham, Kochi Campus</span>
+                    <span class="body-medium card-text">Current CGPA: 7.9</span>
+                  </div>
+                </li>
+                <li class="resume-item">
+                  <div class="resume card">
+                    <p class="body-large">
+                      Higher Secondary Education 
+                    </p>
+                    <span class="label-medium card-subtitle">2019 - 2021</span>
+                    <span class="body-medium card-text">Sri Sai Vidya Vihar, Alangad</span>
+                    <span class="body-medium card-text">Aggregate Marks: 87.2%</span>
+                  </div>
+                </li>
+                <li class="resume-item">
+                  <div class="resume card">
+                    <p class="body-large">
+                      Secondary Education
+                    </p>
+                    <span class="label-medium card-subtitle">2019</span>
+                    <span class="body-medium card-text">Sri Sai Vidya Vihar, Alangad</span>
+                    <span class="body-medium card-text">Aggregate Marks: 79.4%</span>
+                  </div>
+                </li>
+              </ul>
+
+              <h2 class="section-title title-small">Certifications</h2>
+              <ul class="list">
+                <li class="resume-item">
+                  <div class="resume-card">
+                    <p class="body-large">
+                      What is Generative AI? (LinkedIn Learning)
+                    </p>
+                    <span class="label-medium card-subtitle">
+                      August 7, 2024
+                    </span>
+                  </div>
+                </li>
+                <li class="resume-item">
+                  <div class="resume-card">
+                    <p class="body-large">
+                      SQL and Relational Databases (Cognitive Class IBM)
+                    </p>
+                    <span class="label-medium card-subtitle">
+                      August 6, 2024
+                    </span>
+                  </div>
+                </li>
+                <li class="resume-item">
+                  <div class="resume-card">
+                    <p class="body-large">
+                      Python 101 for Data Science (Cognitive Class IBM)
+                    </p>
+                    <span class="label-medium card-subtitle">
+                      July 23, 2024
+                    </span>
+                  </div>
+                </li>
+                <li class="resume-item">
+                  <div class="resume-card">
+                    <p class="body-large">
+                      Computational Problem Solving (Infosys Springboard)
+                    </p>
+                    <span class="label-medium card-subtitle">
+                      March 21, 2024
+                    </span>
+                  </div>
+                </li>
+              </ul>
+
+              <h2 class="section-title title-small">Skills and Technologies</h2>
+              <ul class="resume-bottom-list">
+                <li class="resume-bottom-item">
+                  <img src="./assets/images/html5.svg" alt="HTML5" class="icon" width="28" height="28" loading="lazy">
+                  <span class="label-medium">HTML5</span>
+                </li>
+                <li class="resume-bottom-item">
+                  <img src="./assets/images/css3.svg" alt="HTML5" class="icon" width="28" height="28" loading="lazy">
+                  <span class="label-medium">CSS5</span>
+                </li>
+                <li class="resume-bottom-item">
+                  <img src="./assets/images/javascript.svg" alt="HTML5" class="icon" width="28" height="28" loading="lazy">
+                  <span class="label-medium">JavaScript</span>
+                </li>
+                <li class="resume-bottom-item">
+                  <img src="./assets/images/react.js.svg" alt="HTML5" class="icon" width="28" height="28" loading="lazy">
+                  <span class="label-medium">React JS</span>
+                </li>
+                <li class="resume-bottom-item">
+                  <img src="./assets/images/node.js.svg" alt="HTML5" class="icon" width="28" height="28" loading="lazy">
+                  <span class="label-medium">Node JS</span>
+                </li>
+                <li class="resume-bottom-item">
+                  <img src="./assets/images/github.svg" alt="HTML5" class="icon" width="28" height="28" loading="lazy">
+                  <span class="label-medium">Github</span>
+                </li>
+                <li class="resume-bottom-item">
+                  <img src="./assets/images/mongoDB.svg" alt="HTML5" class="icon" width="28" height="28" loading="lazy">
+                  <span class="label-medium">MongoDB</span>
+                </li>
+                <li class="resume-bottom-item">
+                  <img src="./assets/images/VS_code.svg" alt="HTML5" class="icon" width="28" height="28" loading="lazy">
+                  <span class="label-medium">VSCode</span>
+                </li>
+              </ul>
+            </div>
+           </section>
+
+           <!-- Contact -->
+            <section class="section tab-content contact-tab" data-tab-content="contact">
+              <div class="container">
+                <div class="contact-info">
+                  <h4 class="section-title title-small">
+                    Contact Info
+                  </h4>
+
+                  <ul class="contact-info-list">
+                    <li class="contact-info-item">
+                      <div class="icon-box">
+                        <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+                      </div>
+
+                      <div class="info-content">
+                        <p class="label-small info-title">Mail Me</p>
+                        <a href="mailto:harik106.krishnan@gmail.com" class="label-small info-text">harik106.krishnan@gmail.com</a>
+                      </div>
+                    </li>
+                    <li class="contact-info-item">
+                      <div class="icon-box">
+                        <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+                      </div>
+
+                      <div class="info-content">
+                        <p class="label-small info-title">Call Me</p>
+                        <a href="tel:+91 9447846770" class="label-small info-text">+91 9447846770</a>
+                      </div>
+                    </li>
+                  </ul>
+
+                  <h4 class="title-small">Social Info</h4>
+
+                  <div class="social-list">
+                    <a href="www.linkedin.com/in/harik106" class="social-item">
+                      <img src="./assets/images/LI-In-Bug.png" alt="" width="28">
+                    </a>
+                  </div>
+                </div>
+
+                <div class="contact-form">
+                  <h3 class="title-large">Let&apos;s Work Together.</h3>
+
+                  <form class="input-wrapper" action="" method="post">
+                    <input type="text" name="name" id="" placeholder="Name*" class="input-field" required>
+                    <input type="email" name="email" id="" placeholder="Email*" class="input-field" required>
+                    <input type="text" name="subject" id="" placeholder="Subject" class="input-field" >
+
+                    <textarea name="message" placeholder="Message*" class="textarea" required></textarea>
+
+                    <button class="btn" type="submit">
+                      <span class="label-large">Send Message</span>
+
+                      <div class="state-layer"></div>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </section>
+        
+    
+    </main>
+
+    <!-- Footer
+      -->
+
+      <footer class="footer">
+        <div class="container">
+          <p class="body-medium">Copyright 2023. All rights reserved by Hari Krishnan</p>
+        </div>
+      </footer>
+    <!-- Custom JS link -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
